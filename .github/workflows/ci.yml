@@ -11,6 +11,15 @@ jobs:
         uses: pnpm/setup@v1
       - name: run `pnpm run check:fmt`
         run: pnpm run check:fmt
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v7
+      - name: setup pnpm
+        uses: pnpm/setup@v1
+      - name: run `pnpm run check:lint`
+        run: pnpm run check:lint
 name: ci
 on:
   pull_request:
