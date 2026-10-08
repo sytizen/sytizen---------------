@@ -2,6 +2,9 @@
 	"$schema": "https://www.schemastore.org/package",
 	"private": true,
 	"type": "module",
+	"scripts": {
+		"check:fmt": "oxfmt --check --no-error-on-unmatched-pattern"
+	},
 	"devDependencies": {
 		"oxfmt": "catalog:"
 	},
