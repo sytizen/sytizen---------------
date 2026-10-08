@@ -1,1 +1,3 @@
+catalog:
+  oxfmt: ^0.71.0
 minimumReleaseAge: 4320
