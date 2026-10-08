@@ -5,7 +5,8 @@
 	"scripts": {
 		"check:fmt": "oxfmt --check --no-error-on-unmatched-pattern",
 		"check:lint": "oxlint --no-error-on-unmatched-pattern",
-		"fix:fmt": "oxfmt --no-error-on-unmatched-pattern"
+		"fix:fmt": "oxfmt --no-error-on-unmatched-pattern",
+		"fix:lint": "oxlint --fix --no-error-on-unmatched-pattern"
 	},
 	"devDependencies": {
 		"oxfmt": "catalog:",
